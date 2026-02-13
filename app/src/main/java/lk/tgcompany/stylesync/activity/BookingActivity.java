@@ -151,6 +151,7 @@ public class BookingActivity extends AppCompatActivity {
                             }
                         }
 
+
                         if (alreadyBookedByMe) {
                             // Prevention: Prevent the same user from booking the same slot twice
                             Toast.makeText(this, "You have already booked an appointment for this time!", Toast.LENGTH_LONG).show();
